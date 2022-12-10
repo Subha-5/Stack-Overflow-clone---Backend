@@ -3,22 +3,19 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 
 import userRoutes from './routes/users.js'
+import questionRoutes from './routes/Questions.js'
 
 const app = express()
 app.use(express.json({ limit: "30mb", extended: true }))
 app.use(express.urlencoded({ limit: "30mb", extended: true }))
 app.use(cors())
-// app.use(cors({origin: true, credentials: true}))
-
-// app.options("*", cors({ origin: 'http://localhost:3000', optionsSuccessStatus: 200 }));
-// app.use(cors({ origin: 'http://localhost:3000', optionsSuccessStatus: 200 }));
-
 
 app.get('/', (req, res) => {
     res.send("This is a stack overflow clone API")
 })
 
 app.use('/user', userRoutes)
+app.use('/questions', questionRoutes)
 
 const PORT = process.env.PORT || 5000
 
