@@ -18,11 +18,11 @@ const QuestionSchema = mongoose.Schema(
             type: Number,
             default: 0
         },
-        upVote: {
+        upVotes: {
             type: [String],
             default: []
         },
-        downVote: {
+        downVotes: {
             type: [String],
             default: []
         },
