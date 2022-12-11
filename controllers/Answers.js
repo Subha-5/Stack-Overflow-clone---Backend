@@ -3,7 +3,7 @@ import Questions from "../models/Questions.js";
 
 export const postAnswer = async (req, res) => {
     const { id: _id } = req.params
-    const { noOfAnswers, answerBody, userAnswered } = req.body
+    const { noOfAnswers, answerBody, userAnswered, userId } = req.body
 
     if (!mongoose.Types.ObjectId.isValid(_id)) {
         return res.status(404).send('question unavailable')
@@ -20,7 +20,7 @@ export const postAnswer = async (req, res) => {
                     [{
                         answerBody,
                         userAnswered,
-                        userId: req.userId
+                        userId
                     }]
             }
         })
