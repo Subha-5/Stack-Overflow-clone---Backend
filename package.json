@@ -4,6 +4,9 @@
   "description": "Backend for StackOverflow-clone project",
   "main": "index.js",
   "type" : "module",
+  "engines": {
+    "node":"18.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
