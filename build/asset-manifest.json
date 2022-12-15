@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81c7dead.css",
+    "main.js": "/static/js/main.694ce7af.js",
+    "static/media/logo.png": "/static/media/logo.5d8955bee1028f8066fa.png",
+    "static/media/Globe.svg": "/static/media/Globe.e33f39c3351d421e669c0714cb50acec.svg",
+    "index.html": "/index.html",
+    "static/media/magnifying-glass-solid.svg": "/static/media/magnifying-glass-solid.06e310dbfbf3ab21da478aef6c037c14.svg",
+    "static/media/pen.svg": "/static/media/pen.6a3dc7541df5835f4506d851d67b092d.svg",
+    "static/media/stack-overflow.svg": "/static/media/stack-overflow.4d05484b6b84a1945dc3f9d11ad2f2d5.svg",
+    "static/media/message.svg": "/static/media/message.717c4560768e5f569d6f95c121ec972c.svg",
+    "static/media/down.svg": "/static/media/down.ec4254aa89038b9ea5df12fce3a4900d.svg",
+    "static/media/up.svg": "/static/media/up.b7d8e56d294a3c1e1abedf67296f71da.svg",
+    "main.81c7dead.css.map": "/static/css/main.81c7dead.css.map",
+    "main.694ce7af.js.map": "/static/js/main.694ce7af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81c7dead.css",
+    "static/js/main.694ce7af.js"
+  ]
+}
